@@ -9,7 +9,7 @@ const Heart2 = document.querySelector<HTMLLabelElement>("#Heart2")
 let input = false;
 
 
-let history: String = ""; // stores the display value for the history feauture
+let history: any = ""; // stores the display value for the history feauture
 let checkIfBye: boolean = false; // a toggle for when checking up on the function if it 
 
 let checkZero: boolean = false; // check whether the alue starts with a zero
