@@ -4,12 +4,12 @@
     margin: 0;
   }
   #background {
-    position: fixed;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    background: repeating-linear-gradient(50deg, rgb(7, 141, 38) 40%, rgba(22, 129, 49, 0.54)40%, rgb(133, 217, 133)50%); 
-    background-size: 110% 110%;
+    position: fixed !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: repeating-linear-gradient(50deg, rgb(7, 141, 38) 40%, rgba(22, 129, 49, 0.54) 40%, rgb(133, 217, 133) 50%) !important;
+    background-size: 110% 110% !important;
   }
 
  #name008, #name007, #name005, #name006, #name004, #name003, #name001, #name002, #name, #name1, #name01, #name2, #name3, #name4, #name5, #name6, #name7, #name8, #name9, #name10, #name11, #name12, #name13, #name14, #name15, #name16, #name17, #name18, #name19, #name20, #name21, #name22{
@@ -17,7 +17,7 @@
     font-size: 1.8rem;
     top: -1rem;
     left: 2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color: #1f7a65;
     opacity: 50%;
     text-shadow: 0.3rem 0.2rem 0.2rem rgb(2, 119, 59);
